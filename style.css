@@ -1,0 +1,68 @@
+/* HTML */
+html{
+    height: 100%;
+}
+
+/* BODY */
+body{
+    background-image: url("images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h6{
+   text-align: center;
+   color: chocolate;
+   font-family: century gothic;
+   font-size: 50px;
+   margin-top: 50px;
+    font-weight: 100;
+}
+
+p{
+    text-align: center;
+    color: crimson;
+    font-size: 15px;
+    font-family: fantasy;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+#divider{
+    text-decoration: none;
+    border: 2px solid coral;
+    display: block;
+    width: 30%;
+    height: 50%;
+    margin-right: 250px;
+    color: saddlebrown;
+    background-color: rgba(200,200,200,0.1);
+    float: right;
+    font-weight: 1000;
+    font-family: century gothic;
+    text-align: center;
+    margin-top: -20px;
+}
+
+a{
+    text-decoration: none;
+    color: deeppink;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+
+/*========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and (min-width:500px){
+    #divider{
+        width: 40%;
+        margin-top: -80px;
+        margin-right: 70px;
+        height: 55%;
+    }
+    
+}
+
+
